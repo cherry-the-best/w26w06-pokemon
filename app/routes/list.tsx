@@ -22,8 +22,8 @@ export function meta({}: Route.MetaArgs) {
 
 export default function List() {
   return (
-    <div className="min-h-screen bg-slate-50 p-6">
-      <h1 className="text-2xl font-bold mb-6 text-slate-800">포켓몬 목록</h1> 
+    <div className="min-h-screen bg-slate-5000 p-6">
+      <h1 className="text-5xl font-bold mb-6 text-slate-800">포켓몬 목록</h1> 
 
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
         {pokemons.map((pokemon) => (
